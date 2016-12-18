@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
   console.log(req);
-  res.send(342384662);
+  res.sendStatus(342384662);
 });
 
 app.get(['/facebook', '/instagram'], function(req, res) {
